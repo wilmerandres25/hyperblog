@@ -6,12 +6,31 @@ body {
     padding: 0;
 }
 
+main header {
+    background: #33a;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+main header span {
+    font-size: 0.8em;
+    font-weight: normal;
+    padding: 0 0 0 1em;
+}
+
+
 main {
     width: 70%;
-    padding: 1em;
-    text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
+}
+
+main section {
+    padding: 1em;
+    text-align: left;
 }
 
 main h1 {
