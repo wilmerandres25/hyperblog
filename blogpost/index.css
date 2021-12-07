@@ -50,3 +50,17 @@ main section {
 main h1 {
     font-size: 20px;
 }
+
+footer {
+    background: #33a;
+    padding: 0.5em;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+footer h5 {
+    margin: 0;
+    color: white;
+    font-weight: normal;
+    font-size: 0.8em;
+    text-align: center;
+}
